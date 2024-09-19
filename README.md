@@ -13,27 +13,8 @@ The main interface displays a grid of document cards.
 You can drag and drop the cards to reorder them.
 Click on any card to open a modal displaying the image in full view.
 Press the ESC key or click the close button to exit the modal.
-File Structure
-php
-Copy code
-draggable/
-│
-├── src/
-│   ├── data/
-│   │   └── documents.js       # JSON data containing the documents list
-│   ├── components/
-│   │   ├── App.js             # Main component
-│   │   ├── DocumentCard.js    # Component for individual document cards
-│   │   └── ModalComponent.js  # Component for the image modal
-│   ├── styles.css             # Styling for the application
-│   └── index.js               # Entry point of the application
-│
-├── public/
-│   └── index.html             # Main HTML template
-│
-└── package.json               # Project configuration and dependencies
-Components
-App.js
+
+
 Description: The main component that manages the state and renders the application. It uses the DndProvider from react-dnd to handle drag-and-drop interactions.
 State:
 documents: Array of document objects, sorted by position.
