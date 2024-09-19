@@ -16,24 +16,29 @@ Press the ESC key or click the close button to exit the modal.
 
 
 Description: The main component that manages the state and renders the application. It uses the DndProvider from react-dnd to handle drag-and-drop interactions.
-State:
-documents: Array of document objects, sorted by position.
+
+State documents: Array of document objects, sorted by position.
+
 selectedImage: Currently selected image for the modal view.
-Methods:
-moveCard(fromIndex, toIndex): Handles the reordering of document cards.
+
+Methods:moveCard(fromIndex, toIndex): Handles the reordering of document cards.
+
 openImage(thumbnail): Opens the modal with the selected image.
+
 closeImage(): Closes the modal.
+
 DocumentCard.js
-Description: Represents individual document cards with drag-and-drop functionality.
-Props:
-document: The document object with properties like id, type, title, and thumbnail.
-index: The index of the document card.
-moveCard(fromIndex, toIndex): Function to handle the card's movement.
-openImage(thumbnail): Function to open the modal with the selected image.
+  Description: Represents individual document cards with drag-and-drop functionality.
+  Props:
+  document: The document object with properties like id, type, title, and thumbnail.
+  index: The index of the document card.
+  moveCard(fromIndex, toIndex): Function to handle the card's movement.
+  openImage(thumbnail): Function to open the modal with the selected image.
+
 ModalComponent.js
-Description: Handles the modal display for the selected image.
-Props:
-isOpen: Boolean indicating if the modal is open.
-onRequestClose(): Function to close the modal.
-selectedImage: The image to be displayed in the modal.
+  Description: Handles the modal display for the selected image.
+  Props:
+  isOpen: Boolean indicating if the modal is open.
+  onRequestClose(): Function to close the modal.
+  selectedImage: The image to be displayed in the modal.
 
