@@ -5,6 +5,7 @@ I'm Ritesh Senior Frontend Engineer at Cashfree Payments, Thanks for sharing thi
 Below is the Description which I write to explain what I did in this assignment.
 
 This React application displays a list of document cards that can be reordered via drag and drop. Each document card features a thumbnail image and title. Clicking on a card opens a modal displaying the image in full view. The application is organized using code splitting for better maintainability.
+Note: For now I used some dummy images from google.
 
 Features
 Drag and Drop: Cards can be reordered using drag and drop.
