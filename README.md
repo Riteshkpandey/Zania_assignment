@@ -4,7 +4,8 @@ Hi Team ,
 I'm Ritesh Senior Frontend Engineer at Cashfree Payments, Thanks for sharing this assignment , As this Assignment is consisting of two parts ,Frontend and Backend , I'm More String into Frontend side So I only worked on the Frontend development of this assignment.
 Below is the Description which I write to explain what I did in this assignment.
 
-![Uploading image.png…]()
+<img width="1674" alt="image" src="https://github.com/user-attachments/assets/027260d6-c2d5-4e00-a050-aa6a9ee5bd93">
+
 
 
 This React application displays a list of document cards that can be reordered via drag and drop. Each document card features a thumbnail image and title. Clicking on a card opens a modal displaying the image in full view. The application is organized using code splitting for better maintainability.
